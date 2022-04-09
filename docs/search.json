@@ -1,0 +1,16 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "The colours are borrowed from Fragonard:\n\nknitr::include_graphics(\"images/col_pal_fragonard.jpg\")\n\n\n\n\n\n\n\n\nThe colour palette looks like this:\n\nscales::show_col(c(\"#23A7CE\", \"#97D0D7\", \"#2AB9B7\"))"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Katherine Brown",
+    "section": "",
+    "text": "I’m a Masters student in International Development at Sciences Po, looking for work as a data analyst.\nI’m motivated to make the world a better place. My academic record speaks for itself, y’all!!! I’ve got 11 experience sections on LinkedIn!!!\n\n\nSciences Po | Masters in International Development | 2020-2022\nUniversity of Cape Town | Social Science Honours in Justice & Transformation with distinction | 2018\nUniversity of Cape Town | Bachelor of Arts in International Relations, French Literature and Psychology | 2015-2017\n\n\n\nOxfam | Research consultant | Mar 2021 - Present\nParis Peace Forum | Chargée du Programme des Bénévoles | Sep 2021 - Dec 2021\nRAITH Foundation | Data Analysis Consultant | Nov 2019 - Dec 2020\nSouth African Institute for Race Relations | Research Intern | Feb 2019 - Jul 2019\n\n\n\nHarambee Youth Employment Accelerator | Intern | Jul-Aug 2017"
+  }
+]
