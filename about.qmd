@@ -1,9 +1,41 @@
 ---
-title: "About"
+title: About
+about:
+  template: trestles
+  image: images/kb.jpeg
+  links:
+    - icon: email
+      text: Email me
+      href: akathyabrown@gmail.com
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/katherine-brown-a5a0ba149/ 
 ---
 
-About this site
+# Hi there!
 
-```{r}
-1 + 1
-```
+I'm a Masters student in International Development at Sciences Po, looking for work as a data analyst.
+
+I'm motivated to make the world a better place. My academic record speaks for itself, y'all!!! I've got 11 experience sections on LinkedIn!!!
+
+## Education
+
+**Sciences Po** \| Masters in International Development \| 2020-2022
+
+**University of Cape Town** \| Social Science Honours in Justice & Transformation *with distinction* \| 2018
+
+**University of Cape Town** \| Bachelor of Arts in International Relations, French Literature and Psychology \| 2015-2017
+
+## Experience
+
+**Oxfam** \| Research consultant \| Mar 2021 - Present
+
+**Paris Peace Forum** \| Chargée du Programme des Bénévoles \| Sep 2021 - Dec 2021
+
+**RAITH Foundation** \| Data Analysis Consultant \| Nov 2019 - Dec 2020
+
+**South African Institute for Race Relations** \| Research Intern \| Feb 2019 - Jul 2019
+
+## Volunteering
+
+**[Harambee Youth Employment Accelerator](https://www.harambee.co.za/)** \| Intern \| Jul-Aug 2017

@@ -1,5 +1,5 @@
 ---
-title: "kb"
+title: "Katherine Brown"
 ---
 
 This is a Quarto website.
