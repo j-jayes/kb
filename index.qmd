@@ -16,7 +16,8 @@ I'm a Masters student in International Development at Sciences Po, looking for w
 
 I'm motivated to make the world a better place. My academic record speaks for itself, y'all!!! I've got 11 experience sections on LinkedIn!!!
 
-## Education
+<h2 style="color:#23A7CE">Education</h2>
+
 
 **Sciences Po** \| Masters in International Development \| 2020-2022
 
@@ -24,7 +25,7 @@ I'm motivated to make the world a better place. My academic record speaks for it
 
 **University of Cape Town** \| Bachelor of Arts in International Relations, French Literature and Psychology \| 2015-2017
 
-## Experience
+<h2 style="color:#23A7CE">Experience</h2>
 
 **Oxfam** \| Research consultant \| Mar 2021 - Present
 
@@ -34,6 +35,6 @@ I'm motivated to make the world a better place. My academic record speaks for it
 
 **South African Institute for Race Relations** \| Research Intern \| Feb 2019 - Jul 2019
 
-## Volunteering
+<h2 style="color:#23A7CE">Volunteering</h2>
 
-**[Harambee Youth Employment Accelerator](https://www.harambee.co.za/)** \| Intern \| Jul-Aug 2017
+**Harambee Youth Employment Accelerator** ([homepage](https://www.harambee.co.za/)) \| Intern \| Jul-Aug 2017
