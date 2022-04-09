@@ -9,7 +9,7 @@
 
 /* Optional: embed custom fonts here with `@import`          */
 /* This must remain at the top of this file.                 */
-@import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP:300, 300i&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap);
 @import url('https://fonts.googleapis.com/css?family=Lato:400,400i,700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono&display=swap');
 
@@ -53,58 +53,4 @@ d-appendix {
   --heading-color:   rgba(0, 0, 0, 0.65);
   --text-size:       0.9rem;                    /* edited */
   --text-color:      #1a162d;                   /* edited */
-}
-
-/*-- WEBSITE HEADER + FOOTER --*/
-/* These properties only apply to Distill sites and blogs  */
-
-.distill-site-header {
-  --title-size:       18px;
-  --text-color:       #1f1f1f;                   /* edited */
-  --text-size:        15px;
-  --hover-color:      #787878;                   /* edited */
-  --bkgd-color:       #fff;                      /* edited */
-}
-
-.distill-site-footer {
-  --text-color:       #7e7b88;                   /* edited */
-  --text-size:        15px;
-  --hover-color:      white;
-  --bkgd-color:       #ca225e3d;                 /* edited */
-}
-
-/*-- Additional custom styles --*/
-
-ul > li::marker {
-  color: #2b8cbe;
-}
-
-.distill-site-header {
-  letter-spacing: 2px;
-  text-transform: uppercase;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  letter-spacing: 2px;
-  font-weight: 300;
-}
-
-.distill-site-header .logo img{
-  max-height: 40px; /* Makes logo bigger, default was 20px */
-}
-
-.distill-site-header {
-  padding-top: 1rem;
-}
-
-d-title h1,
-d-article h2,
-.posts-list .description h2,
-.posts-list > h1 {
-    font-weight: 300;
-}
-
-d-appendix {
-  background-color: #deebf7;
-  border-top: none;
 }

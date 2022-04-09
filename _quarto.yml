@@ -1,18 +1,22 @@
 project:
   type: website
+  output-dir: _site
 
 website:
   title: "Katherine Brown"
   navbar:
-    background: primary
+    background: light
+    logo: images/favicon.ico
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: about.qmd
+        text: About
 
 format:
   html:
-    theme: cosmo
+    theme:
+      light: [cosmo, theme.scss]
     css: styles_blue.css
     toc: true
 
