@@ -5,8 +5,10 @@ about:
   image: images/kb.jpeg
   links:
     - icon: bi-envelope-fill
+      # text: Email
       href: mailto:akathyabrown@gmail.com
     - icon: bi-linkedin
+      # text: LinkedIn
       href: https://www.linkedin.com/in/katherine-brown-a5a0ba149/ 
 ---
 

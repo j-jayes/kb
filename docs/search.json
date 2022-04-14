@@ -2,37 +2,9 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "Site info",
     "section": "",
     "text": "The colours are borrowed from Fragonard:\n\nknitr::include_graphics(\"images/col_pal_fragonard.jpg\")\n\n\n\n\n\n\n\n\nThe colour palette looks like this:\n\nscales::show_col(c(\"#23A7CE\", \"#97D0D7\", \"#2AB9B7\"))\n\n\n\n\n\n\n\nThis site is built with Quarto – an open-source scientific and technical publishing system built on Pandoc. It is deployed on Github Pages."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Katherine Brown",
-    "section": "",
-    "text": "I’m a Masters student in International Development at Sciences Po, looking for work as a data analyst.\nI’m motivated to make the world a better place. My academic record speaks for itself, y’all!!! I’ve got 11 experience sections on LinkedIn!!!\n\nSciences Po | Masters in International Development | 2020-2022\nUniversity of Cape Town | Social Science Honours in Justice & Transformation with distinction | 2018\nUniversity of Cape Town | Bachelor of Arts in International Relations, French Literature and Psychology | 2015-2017\n\nOxfam | Research consultant | Mar 2021 - Present\nParis Peace Forum | Chargée du Programme des Bénévoles | Sep 2021 - Dec 2021\nRAITH Foundation | Data Analysis Consultant | Nov 2019 - Dec 2020\nSouth African Institute for Race Relations | Research Intern | Feb 2019 - Jul 2019\n\nHarambee Youth Employment Accelerator (homepage) | Intern | Jul-Aug 2017"
-  },
-  {
-    "objectID": "reports/soidsa.html",
-    "href": "reports/soidsa.html",
-    "title": "The State of Intolerance and Discrimination in South Africa",
-    "section": "",
-    "text": "Our research looked into people in South Africa’s experience of racism, sexism, ableism and other types of discrimination and intolerance to assess the country’s progress (or lack thereof) in creating a better and more equal society.\nThank you to Chido Mahakata, Katarzyna Zdunczyk and Zaid Kimmie for co-researching and co-writing this with me - it’s always a privilege to work with you!\n\n\n\n\n\nFull report\n\n\n\n\nPhoto by Julia Taubitz on Unsplash"
-  },
-  {
-    "objectID": "reports_grid.html",
-    "href": "reports_grid.html",
-    "title": "Reports",
-    "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\n\nThis study explores specialized units established in 23 countries to investigate and prosecute serious international crimes.\n\n\n\nKatherine Brown\n\n\nMar 1, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nI co-wrote and co-researched this report on the state of intolerance and discrimination for the South African Department of Justice through the Foundation for Human Rights.\n\n\n\nKatherine Brown\n\n\nMar 1, 2022\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "reports/gufai.html",
-    "href": "reports/gufai.html",
-    "title": "Gearing Up the Fight Against Impunity",
-    "section": "",
-    "text": "Thank you Katarzyna Zdunczyk for bringing me on board for this incredible project which is crucial for South Africa’s transitional justice process.\nI and the other authors call for South Africa to establish a specialised prosecution unit for apartheid-era crimes, using case studies from around the world as examples of successful justice processes.\n\nNotwithstanding the challenges faced by these units, the study concludes that countries with a specialized institutional approach are considerably more successful in bringing perpetrators to justice when compared with countries without dedicated capacities. The report also analyses how specialized units have been instrumental in bringing justice to victims of the Syrian conflict.\n\n\n\n\n\n\nFull report\n\n\n\n\nPhoto by Tingey Injury Law Firm on Unsplash"
   },
   {
     "objectID": "certifications/certifications.html",
@@ -47,5 +19,33 @@
     "title": "Certifcations",
     "section": "Dataquest certifications",
     "text": "Dataquest certifications\nI completed Dataquest’s Data Visualization in R course in March 2020. The certificate and verification link are accessible below."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Katherine Brown",
+    "section": "",
+    "text": "I’m a Masters student in International Development at Sciences Po, looking for work as a data analyst.\nI’m motivated to make the world a better place. My academic record speaks for itself, y’all!!! I’ve got 11 experience sections on LinkedIn!!!\n\nSciences Po | Masters in International Development | 2020-2022\nUniversity of Cape Town | Social Science Honours in Justice & Transformation with distinction | 2018\nUniversity of Cape Town | Bachelor of Arts in International Relations, French Literature and Psychology | 2015-2017\n\nOxfam | Research consultant | Mar 2021 - Present\nParis Peace Forum | Chargée du Programme des Bénévoles | Sep 2021 - Dec 2021\nRAITH Foundation | Data Analysis Consultant | Nov 2019 - Dec 2020\nSouth African Institute for Race Relations | Research Intern | Feb 2019 - Jul 2019\n\nHarambee Youth Employment Accelerator (homepage) | Intern | Jul-Aug 2017"
+  },
+  {
+    "objectID": "reports/gufai.html",
+    "href": "reports/gufai.html",
+    "title": "Gearing Up the Fight Against Impunity",
+    "section": "",
+    "text": "Thank you Katarzyna Zdunczyk for bringing me on board for this incredible project which is crucial for South Africa’s transitional justice process.\nI and the other authors call for South Africa to establish a specialised prosecution unit for apartheid-era crimes, using case studies from around the world as examples of successful justice processes.\n\nNotwithstanding the challenges faced by these units, the study concludes that countries with a specialized institutional approach are considerably more successful in bringing perpetrators to justice when compared with countries without dedicated capacities. The report also analyses how specialized units have been instrumental in bringing justice to victims of the Syrian conflict.\n\n\n\n\n\n\nFull report\n\n\n\n\nGrid photo by Tingey Injury Law Firm on Unsplash"
+  },
+  {
+    "objectID": "reports/soidsa.html",
+    "href": "reports/soidsa.html",
+    "title": "The State of Intolerance and Discrimination in South Africa",
+    "section": "",
+    "text": "Our research looked into people in South Africa’s experience of racism, sexism, ableism and other types of discrimination and intolerance to assess the country’s progress (or lack thereof) in creating a better and more equal society.\nThank you to Chido Mahakata, Katarzyna Zdunczyk and Zaid Kimmie for co-researching and co-writing this with me - it’s always a privilege to work with you!\n\n\n\n\n\nFull report\n\n\n\n\nGrid photo by Julia Taubitz on Unsplash"
+  },
+  {
+    "objectID": "reports_grid.html",
+    "href": "reports_grid.html",
+    "title": "Reports",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\n\nThis study explores specialized units established in 23 countries to investigate and prosecute serious international crimes.\n\n\n\nKatherine Brown\n\n\nMar 1, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nI co-wrote and co-researched this report on the state of intolerance and discrimination for the South African Department of Justice through the Foundation for Human Rights.\n\n\n\nKatherine Brown\n\n\nMar 1, 2022\n\n\n\n\n\n\n\n\nNo matching items"
   }
 ]
