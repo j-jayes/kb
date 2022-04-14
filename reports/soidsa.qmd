@@ -2,7 +2,7 @@
 title: "The State of Intolerance and Discrimination in South Africa"
 author: Katherine Brown
 date: 03-01-2022
-image: "julia-taubitz-0dFnhliQ82w-unsplash.jpg"
+image: "https://raw.githubusercontent.com/j-jayes/kb/main/reports/julia-taubitz-0dFnhliQ82w-unsplash.jpg"
 description: "I co-wrote and co-researched this report on the state of intolerance and discrimination for the South African Department of Justice through the Foundation for Human Rights."
 ---
 
