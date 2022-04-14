@@ -10,8 +10,11 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - href: reports_grid.qmd
+        text: Reports
       - href: about.qmd
         text: About
+      - href: certifications/certifications.qmd
 
 format:
   html:

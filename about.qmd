@@ -19,3 +19,6 @@ The colour palette looks like this:
 scales::show_col(c("#23A7CE", "#97D0D7", "#2AB9B7"))
 ```
 
+### Build
+
+This site is built with [Quarto](https://quarto.org/) -- an open-source scientific and technical publishing system built on Pandoc. It is deployed on Github Pages.

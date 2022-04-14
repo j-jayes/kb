@@ -4,7 +4,7 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "The colours are borrowed from Fragonard:\n\nknitr::include_graphics(\"images/col_pal_fragonard.jpg\")\n\n\n\n\n\n\n\n\nThe colour palette looks like this:\n\nscales::show_col(c(\"#23A7CE\", \"#97D0D7\", \"#2AB9B7\"))"
+    "text": "The colours are borrowed from Fragonard:\n\nknitr::include_graphics(\"images/col_pal_fragonard.jpg\")\n\n\n\n\n\n\n\n\nThe colour palette looks like this:\n\nscales::show_col(c(\"#23A7CE\", \"#97D0D7\", \"#2AB9B7\"))\n\n\n\n\n\n\n\nThis site is built with Quarto – an open-source scientific and technical publishing system built on Pandoc. It is deployed on Github Pages."
   },
   {
     "objectID": "index.html",
@@ -18,6 +18,34 @@
     "href": "reports/soidsa.html",
     "title": "The State of Intolerance and Discrimination in South Africa",
     "section": "",
-    "text": "Our research looked into people in South Africa’s experience of racism, sexism, ableism and other types of discrimination and intolerance to assess the country’s progress (or lack thereof) in creating a better and more equal society.\nThank you to Chido Mahakata, Katarzyna Zdunczyk and Zaid Kimmie for co-researching and co-writing this with me - it’s always a privilege to work with you!\n\n\n\n\n\nFull report"
+    "text": "Our research looked into people in South Africa’s experience of racism, sexism, ableism and other types of discrimination and intolerance to assess the country’s progress (or lack thereof) in creating a better and more equal society.\nThank you to Chido Mahakata, Katarzyna Zdunczyk and Zaid Kimmie for co-researching and co-writing this with me - it’s always a privilege to work with you!\n\n\n\n\n\nFull report\n\n\n\n\nPhoto by Julia Taubitz on Unsplash"
+  },
+  {
+    "objectID": "reports_grid.html",
+    "href": "reports_grid.html",
+    "title": "Reports",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\n\nThis study explores specialized units established in 23 countries to investigate and prosecute serious international crimes.\n\n\n\nKatherine Brown\n\n\nMar 1, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nI co-wrote and co-researched this report on the state of intolerance and discrimination for the South African Department of Justice through the Foundation for Human Rights.\n\n\n\nKatherine Brown\n\n\nMar 1, 2022\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "reports/gufai.html",
+    "href": "reports/gufai.html",
+    "title": "Gearing Up the Fight Against Impunity",
+    "section": "",
+    "text": "Thank you Katarzyna Zdunczyk for bringing me on board for this incredible project which is crucial for South Africa’s transitional justice process.\nI and the other authors call for South Africa to establish a specialised prosecution unit for apartheid-era crimes, using case studies from around the world as examples of successful justice processes.\n\nNotwithstanding the challenges faced by these units, the study concludes that countries with a specialized institutional approach are considerably more successful in bringing perpetrators to justice when compared with countries without dedicated capacities. The report also analyses how specialized units have been instrumental in bringing justice to victims of the Syrian conflict.\n\n\n\n\n\n\nFull report\n\n\n\n\nPhoto by Tingey Injury Law Firm on Unsplash"
+  },
+  {
+    "objectID": "certifications/certifications.html",
+    "href": "certifications/certifications.html",
+    "title": "Certifcations",
+    "section": "",
+    "text": "I am an accomplished data analyst with competencies in R and Stata."
+  },
+  {
+    "objectID": "certifications/certifications.html#dataquest-certifications",
+    "href": "certifications/certifications.html#dataquest-certifications",
+    "title": "Certifcations",
+    "section": "Dataquest certifications",
+    "text": "Dataquest certifications\nI completed Dataquest’s Data Visualization in R course in March 2020. The certificate and verification link are accessible below."
   }
 ]

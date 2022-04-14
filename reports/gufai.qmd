@@ -1,0 +1,24 @@
+---
+title: "Gearing Up the Fight Against Impunity"
+author: Katherine Brown
+date: 03-01-2022
+image: "images/tingey-injury-law-firm-veNb0DDegzE-unsplash.jpg"
+description: "This study explores specialized units established in 23 countries to investigate and prosecute serious international crimes."
+---
+
+The International Center for Transitional Justice has just published a report featuring me as a researcher! 🎉
+
+Thank you [Katarzyna Zdunczyk](https://www.linkedin.com/in/ACoAABn0qF8BiSCXgxrG8Sk0ufoECHPD6QpwalE?lipi=urn%3Ali%3Apage%3Ad_flagship3_detail_base%3BX2LT79MzQ6C6f5rqtZfDLQ%3D%3D) for bringing me on board for this incredible project which is crucial for South Africa's transitional justice process.
+
+I and the other authors call for South Africa to establish a specialised prosecution unit for apartheid-era crimes, using case studies from around the world as examples of successful justice processes. 
+
+> Notwithstanding the challenges faced by these units, the study concludes that countries with a specialized institutional approach are considerably more successful in bringing perpetrators to justice when compared with countries without dedicated capacities. The report also analyses how specialized units have been instrumental in bringing justice to victims of the Syrian conflict.
+
+```{r image-ref-for-in-text, echo = FALSE, message=FALSE, fig.align='center', fig.cap='Full report', out.width="100%", out.height=800}
+#| column: body-outset
+
+knitr::include_graphics("ICTJ_Report_Specialized_Units_Web.pdf")
+```
+
+[Photo by <a href="https://unsplash.com/@tingeyinjurylawfirm?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Tingey Injury Law Firm</a> on <a href="https://unsplash.com/s/photos/justice?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>]{.aside}
+  

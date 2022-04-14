@@ -1,0 +1,8 @@
+---
+title: "Reports"
+listing:
+  contents:
+    - "reports/*.qmd"
+  type: grid
+---
+

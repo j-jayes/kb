@@ -3,7 +3,7 @@
   <meta charset="utf-8">
   <meta name="generator" content="quarto-0.9.217">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-  <title>Katherine Brown</title>
+  <title>Katherine Brown - Reports</title>
   <style>
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
@@ -20,6 +20,8 @@
   <script src="site_libs/quarto-search/autocomplete.umd.js"></script>
   <script src="site_libs/quarto-search/fuse.min.js"></script>
   <script src="site_libs/quarto-search/quarto-search.js"></script>
+  <script src="site_libs/quarto-listing/list.min.js"></script>
+  <script src="site_libs/quarto-listing/quarto-listing.js"></script>
   <script src="site_libs/quarto-html/quarto.js"></script>
   <script src="site_libs/quarto-html/popper.min.js"></script>
   <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -48,12 +50,35 @@
       "search-submit-button-title": "Submit"
     }
   }</script>
+  <script>
+
+    window.document.addEventListener("DOMContentLoaded", function (_event) {
+      const listingTargetEl = window.document.querySelector('#listing-listing .list');
+      if (!listingTargetEl) {
+        // No listing discovered, do not attach.
+        return; 
+      }
+
+      const options = {
+        valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+        
+        searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+      };
+
+      window['quarto-listings'] = window['quarto-listings'] || {};
+      window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+      if (window['quarto-listing-loaded']) {
+        window['quarto-listing-loaded']();
+      }
+    });
+    </script>
   <!--[if lt IE 9]>
     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
   <![endif]-->
   <link rel="stylesheet" href="styles_blue.css">
 </head>
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark ">
@@ -68,10 +93,10 @@
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page">Home</a>
+    <a class="nav-link" href="./index.html">Home</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./reports_grid.html">Reports</a>
+    <a class="nav-link active" href="./reports_grid.html" aria-current="page">Reports</a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./about.html">About</a>
@@ -86,53 +111,100 @@
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    </div>
 <!-- main -->
-<div class="quarto-about-trestles">
-  <div class="about-entity">
-    <img src="images/kb.jpeg" class="about-image
-  rounded " style="width: 20em;">
+<main class="content" id="quarto-document-content">
 <header id="title-block-header" class="quarto-title-block default">
 
-<div class="quarto-title"><h1 class="title display-7">Katherine Brown</h1></div></header>
-    <div class="about-links">
-  <a href="mailto:akathyabrown@gmail.com" class="about-link">
-    <i class="bi bi-envelope-fill"></i>
-  </a>
-  <a href="https://www.linkedin.com/in/katherine-brown-a5a0ba149/" class="about-link">
-    <i class="bi bi-linkedin"></i>
-  </a>
-</div>
+<div class="quarto-title"><h1 class="title display-7">Reports</h1></div></header>
+
+
+
+
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Order By</option>
+       <option value="index" data-direction="asc">Default</option>
+         <option value="listing-title" data-direction="asc">
+          Title
+        </option>
+         <option value="listing-date-sort" data-direction="asc">
+          Date - Oldest
+        </option>
+         <option value="listing-date-sort" data-direction="desc">
+          Date - Newest
+        </option>
+         <option value="listing-author" data-direction="asc">
+          Author
+        </option>
+     </select>
   </div>
-  <div class="about-contents"><main class="content" id="quarto-document-content">
-<section id="hi-there" class="level1">
-<h1>Hi there!</h1>
-<p>I’m a Masters student in International Development at Sciences Po, looking for work as a data analyst.</p>
-<p>I’m motivated to make the world a better place. My academic record speaks for itself, y’all!!! I’ve got 11 experience sections on LinkedIn!!!</p>
-<h2 style="color:#23A7CE" class="anchored" data-anchor-id="hi-there">
-Education
-</h2>
-<p><strong>Sciences Po</strong> | Masters in International Development | 2020-2022</p>
-<p><strong>University of Cape Town</strong> | Social Science Honours in Justice &amp; Transformation <em>with distinction</em> | 2018</p>
-<p><strong>University of Cape Town</strong> | Bachelor of Arts in International Relations, French Literature and Psychology | 2015-2017</p>
-<h2 style="color:#23A7CE" class="anchored">
-Experience
-</h2>
-<p><strong>Oxfam</strong> | Research consultant | Mar 2021 - Present</p>
-<p><strong>Paris Peace Forum</strong> | Chargée du Programme des Bénévoles | Sep 2021 - Dec 2021</p>
-<p><strong>RAITH Foundation</strong> | Data Analysis Consultant | Nov 2019 - Dec 2020</p>
-<p><strong>South African Institute for Race Relations</strong> | Research Intern | Feb 2019 - Jul 2019</p>
-<h2 style="color:#23A7CE" class="anchored">
-Volunteering
-</h2>
-<p><strong>Harambee Youth Employment Accelerator</strong> (<a href="https://www.harambee.co.za/">homepage</a>) | Intern | Jul-Aug 2017</p>
-
-
-
-</section>
-</main></div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
 </div>
- <!-- /main -->
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-listing-date-sort="1646089200000" data-listing-file-modified-sort="1649939352827" data-listing-reading-time-sort="0.71">
+<a href="./reports/gufai.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="\reports\images\tingey-injury-law-firm-veNb0DDegzE-unsplash.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Gearing Up the Fight Against Impunity
+</h5>
+<div class="card-text listing-description">
+This study explores specialized units established in 23 countries to investigate and prosecute serious international crimes.
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Katherine Brown
+</div>
+<div class="listing-date">
+Mar 1, 2022
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-date-sort="1646089200000" data-listing-file-modified-sort="1649938902842" data-listing-reading-time-sort="0.545">
+<a href="./reports/soidsa.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="\reports\images\julia-taubitz-0dFnhliQ82w-unsplash.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+The State of Intolerance and Discrimination in South Africa
+</h5>
+<div class="card-text listing-description">
+I co-wrote and co-researched this report on the state of intolerance and discrimination for the South African Department of Justice through the Foundation for Human Rights.
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Katherine Brown
+</div>
+<div class="listing-date">
+Mar 1, 2022
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const icon = "";
