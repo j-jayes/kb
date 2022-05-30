@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Katherine Brown - Site info</title>
+<title>Katherine Brown - How to update this site</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -147,7 +147,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./about.html" aria-current="page">Site</a>
+    <a class="nav-link" href="./about.html">Site</a>
   </li>  
 </ul>
               <div id="quarto-search" class="" title="Search"></div>
@@ -164,11 +164,15 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#website-elements" id="toc-website-elements" class="nav-link active" data-scroll-target="#website-elements">Website elements</a>
+  <li><a href="#purpose" id="toc-purpose" class="nav-link active" data-scroll-target="#purpose">Purpose</a></li>
+  <li><a href="#explanation" id="toc-explanation" class="nav-link" data-scroll-target="#explanation">Explanation</a>
   <ul class="collapse">
-  <li><a href="#colours" id="toc-colours" class="nav-link" data-scroll-target="#colours">Colours</a></li>
-  <li><a href="#build" id="toc-build" class="nav-link" data-scroll-target="#build">Build</a></li>
-  <li><a href="#update" id="toc-update" class="nav-link" data-scroll-target="#update">Update</a></li>
+  <li><a href="#site-structure" id="toc-site-structure" class="nav-link" data-scroll-target="#site-structure">Site Structure</a></li>
+  </ul></li>
+  <li><a href="#getting-going" id="toc-getting-going" class="nav-link" data-scroll-target="#getting-going">Getting going</a>
+  <ul class="collapse">
+  <li><a href="#installing-things" id="toc-installing-things" class="nav-link" data-scroll-target="#installing-things">Installing things!</a></li>
+  <li><a href="#git-and-github" id="toc-git-and-github" class="nav-link" data-scroll-target="#git-and-github">Git and Github</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -178,7 +182,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Site info</h1>
+<h1 class="title">How to update this site</h1>
 </div>
 
 
@@ -192,36 +196,83 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
 </header>
 
-<section id="website-elements" class="level2">
-<h2 class="anchored" data-anchor-id="website-elements">Website elements</h2>
-<section id="colours" class="level3">
-<h3 class="anchored" data-anchor-id="colours">Colours</h3>
-<p>The colours are borrowed from <a href="https://www.fragonard.com/en-int/eau-du-bonheur/eau-du-bonheur-p-1916.htm">Fragonard</a>:</p>
-<div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"images/col_pal_fragonard.jpg"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/col_pal_fragonard.jpg" class="img-fluid figure-img" width="306"></p>
-</figure>
-</div>
-</div>
-</div>
-<p>The colour palette looks like this:</p>
+<section id="purpose" class="level2">
+<h2 class="anchored" data-anchor-id="purpose">Purpose</h2>
+<p>Dear Kbae, I’m so stoked that you will be a website gal!</p>
+<p>This page includes the instructions for how to update this website. There’s a part explaining how it works first, and then what you need to do to make changes next.</p>
+</section>
+<section id="explanation" class="level2">
+<h2 class="anchored" data-anchor-id="explanation">Explanation</h2>
+<p>The website is created from code stored in a github repository on my github, which you can see <a href="https://github.com/j-jayes/kb">here</a>:</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>scales<span class="sc">::</span><span class="fu">show_col</span>(<span class="fu">c</span>(<span class="st">"#23A7CE"</span>, <span class="st">"#97D0D7"</span>, <span class="st">"#2AB9B7"</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"images/github_home.PNG"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
-<p><img src="about_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid" width="672"></p>
+<p><img src="images/github_home.PNG" class="img-fluid" width="506"></p>
 </div>
 </div>
+<p>Any time the code in folder called <code>_site</code> changes, the website will automatically update. To update the contents of the <code>_site</code> folder, you simply make changes to the quarto documents (ending in .qmd) that control the website, call <code>quarto::quarto_render</code> inside Rstudio and then push the changes to github.</p>
+<p>You’ll have to create a github account and then I can add you as a collaborator on the repository so that you can push your changes directly.</p>
+<section id="site-structure" class="level3">
+<h3 class="anchored" data-anchor-id="site-structure">Site Structure</h3>
+<p>We can break down the site into content, layout and style, e.g.</p>
+<ul>
+<li>content: a page describing the reports that you have contributed to,</li>
+<li>layout: what appears on the navigation bar, how you interact with the website, and</li>
+<li>style: colours, font choice and size of different text</li>
+</ul>
+<p>You’ll want to change content most frequently, so we will start with that.</p>
+<section id="content" class="level4">
+<h4 class="anchored" data-anchor-id="content">Content</h4>
+<p>The site content is made up of different Quarto documents (files that end in <code>.qmd</code>) that are rendered into HTML.</p>
+<p>You make changes to these Quarto documents, call the command <code>quarto::quarto_render()</code> and then the HTML is created and the output is placed in the <code>_site</code> folder.</p>
+<p>The main one is called <code>index.qmd</code>. It determines the content on the main page.</p>
+<p>Making changes to quarto documents is super easy, it’s just markdown - a language that is easy for humans to read.</p>
+<p>A quarto file has a YAML section at the top, and then markdown below. An example is shown below.</p>
+<pre data-echo="T," data-eval="F"><code>---
+title: "Example report"
+author: Katherine Brown
+date: 03-01-2022
+image: "https://raw.githubusercontent.com/j-jayes/kb/main/reports/julia-taubitz-0dFnhliQ82w-unsplash.jpg"
+description: "Description of post goes here!"
+---
+
+This report was very important and had a big impact! Here is how you can make a [link](https://github.com/j-jayes/kb)  to access it.</code></pre>
 </section>
-<section id="build" class="level3">
-<h3 class="anchored" data-anchor-id="build">Build</h3>
-<p>This site is built with <a href="https://quarto.org/">Quarto</a> – an open-source scientific and technical publishing system built on Pandoc. It is deployed on <a href="https://www.netlify.com/">Netlify</a>.</p>
+<section id="layout" class="level4">
+<h4 class="anchored" data-anchor-id="layout">Layout</h4>
+<p>The layout of the website can be changed in the <code>_quarto.yml</code> file. For example if you want to add new items on the navigation bar at the top, or change the title, this is where you would do it.</p>
 </section>
-<section id="update" class="level3">
-<h3 class="anchored" data-anchor-id="update">Update</h3>
-<p>To update the site, follow the instructions <a href="./update_instructions.html">here</a></p>
+<section id="style" class="level4">
+<h4 class="anchored" data-anchor-id="style">Style</h4>
+<p>The style of the website, including the fonts and colours, are set with the files called <code>style_blue.css</code> and <code>theme.scss</code>.</p>
+</section>
+</section>
+</section>
+<section id="getting-going" class="level2">
+<h2 class="anchored" data-anchor-id="getting-going">Getting going</h2>
+<section id="installing-things" class="level3">
+<h3 class="anchored" data-anchor-id="installing-things">Installing things!</h3>
+<p>To update this site, you need to have the website building tool called Quarto installed. You also need R and Rstudio installed, and the quarto package for R.</p>
+<p>As an analogy, think of a car. Quarto is the engine, and Rstudio is the steering wheel. You don’t control Quarto directly, you steer in Rstudio.</p>
+<p>To install Quarto onto your computer, follow the <a href="https://quarto.org/docs/get-started/">Get Started</a> guide.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_url</span>(<span class="st">"https://quarto.org/docs/get-started/"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<iframe src="https://quarto.org/docs/get-started/" width="672" height="400px" data-external="1">
+</iframe>
+</div>
+<blockquote class="blockquote">
+Quarto® is an open-source scientific and technical publishing system built on Pandoc
+</blockquote>
+<p>I assume that you have R and Rstudio installed, but if not, you can follow this guide from <a href="https://moderndive.com/1-getting-started.html">Modern Dive</a>.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_url</span>(<span class="st">"https://moderndive.com/1-getting-started.html"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<iframe src="https://moderndive.com/1-getting-started.html" width="672" height="400px" data-external="1">
+</iframe>
+</div>
+</section>
+<section id="git-and-github" class="level3">
+<h3 class="anchored" data-anchor-id="git-and-github">Git and Github</h3>
+<p>I don’t think there is a need to explain Git and Github here. They are amazing and if you are interested then <a href="https://happygitwithr.com/big-picture.html">this guide</a> from Jenny Bryan is the best resource. She lays out exactly how the two differ <a href="https://peerj.com/preprints/3159v2/">here</a>. All you need to know to update the website is that before making changes you have to use <code>git pull</code> in the terminal, make your changes, then commit these changes and push them to Github. Then the website automatically updates.</p>
 
 
 </section>
