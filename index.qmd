@@ -2,7 +2,7 @@
 title: Katherine Brown
 about:
   template: trestles
-  image: images/kb.jpeg
+  image: images/IMG_1873.jpg
   links:
     - icon: bi-envelope-fill
       # text: Email
