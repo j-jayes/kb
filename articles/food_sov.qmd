@@ -1,0 +1,8 @@
+---
+title: "Food Sovereignty"
+author: Katherine Brown
+date: 03-01-2022
+image: "https://raw.githubusercontent.com/j-jayes/kb/main/reports/tingey-injury-law-firm-veNb0DDegzE-unsplash.jpg"
+description: "This study explores specialized units established in 23 countries to investigate and prosecute serious international crimes."
+---
+

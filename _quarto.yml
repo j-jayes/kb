@@ -12,6 +12,8 @@ website:
         text: Home
       - href: reports_grid.qmd
         text: Reports
+      - href: articles_grid.qmd
+        text: Articles
       - href: certifications/certifications.qmd
         text: Certifications
     right: 
