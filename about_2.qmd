@@ -1,0 +1,159 @@
+---
+title: Katherine Brown
+about:
+  template: trestles
+  image: images/IMG_1873.jpg
+  links:
+    - icon: bi-envelope-fill
+      # text: Email
+      href: mailto:akathyabrown@gmail.com
+    - icon: bi-linkedin
+      # text: LinkedIn
+      href: https://www.linkedin.com/in/katherine-brown-a5a0ba149/ 
+---
+```{r, echo=F}
+knitr::opts_chunk$set(echo = FALSE, message = F, warning = F)
+```
+
+# Hi there!
+
+I'm a Masters graduate in International Development from Sciences Po, looking for work as a data analyst.
+
+I'm passionate about socio-economic development, inequality,  and making a difference in the lives of vulnerable people.
+
+<h2 style="color:#23A7CE">Education</h2>
+
+I have enjoyed an enriching education from two top-rated institutions in their fields of speciality.
+
+```{r}
+library(tidyverse)
+library(gt)
+library(glue)
+
+education <- tribble(
+  ~logo, ~link, ~institution, ~degree, ~date, ~ grade_comment,
+  # SP
+  "images/sp.jfif", "https://www.sciencespo.fr/en", "Sciences Po", "Master's degree, International Development", "2020-2022", "",
+  # uct honours
+  "images/uct.jfif", "https://www.uct.ac.za/", "University of Cape Town", "Honours degree, Social Science in Justice & Transformation", "2018", "<em>With distinction</em>",
+  # uct undergrad
+  "images/uct.jfif", "https://www.uct.ac.za/", "University of Cape Town", "Bachelor's degree, Arts in International Relations, Psychology and French Literature", "2015-2017", "<em>With distinction in French Literature</em>"
+)
+
+education <- education %>%
+  mutate(
+    logo = glue::glue("<a href = {link}>
+                        <img src='{logo}' width='50' height='50'>
+                      </a>"),
+    institution = glue::glue("<b>{institution}</b>"),
+    date = glue::glue("<span style='opacity: .7;'> {date} </span>"),
+    grade_comment = glue::glue("<span style='opacity: .7;'> {grade_comment} </span>"),
+  ) %>% 
+  mutate(text = str_c(
+    institution, "<br>",
+    degree, "<br>",
+    date, "<br>",
+    grade_comment
+  )) %>%
+  select(logo, text) %>%
+  mutate(
+    logo = purrr::map(logo, gt::html),
+    text = purrr::map(text, gt::html)
+  )
+
+education %>%
+  gt() %>%
+  tab_header(md("**Education**")) %>%
+  cols_align(align = c("left"), columns = text) %>%
+  cols_label(
+    logo = "",
+    text = "",
+  )
+```
+
+
+<h2 style="color:#23A7CE">Experience</h2>
+
+I have a wealth of experience as a researcher and analyst in the NGO space. I have excelled professional in English and in French.
+
+```{r}
+
+experience <- tribble(
+  ~logo, ~link, ~institution, ~title, ~date,
+  # oxfam
+  "images/ox.jfif", "https://www.oxfam.org.za/", "Oxfam South Africa", "Research consultant", "2021 - Present",
+  # ppf
+  "images/ppf.jfif", "https://parispeaceforum.org/", "Paris Peace Forum", "Chargée du Programme des Bénévoles<br>Volunteer Programme Officer", "2018",
+  # fhr
+  "images/fhr.png", "https://www.fhr.org.za/", "Foundation for Human Rights", "Research consultant, following a role as Junior Researcher and an Internship", "Sept 2020 – Present",
+  # raith
+  "images/raith.png", "https://www.raith.org.za/", "RAITH Foundation", "Data Analysis Consultant", "Nov 2019 - Dec 2020",
+    # raith
+  "images/irr.png", "https://irr.org.za/", "South African Institute for Race Relations<br>& Centre for Risk Analysis", "Research Intern", "Feb 2019 - Jul 2019",
+)
+
+experience <- experience %>%
+  mutate(
+    logo = glue::glue("<a href = {link}>
+                        <img src='{logo}' width='50' height='50'>
+                      </a>"),
+    institution = glue::glue("<b>{institution}</b>"),
+    date = glue::glue("<span style='opacity: .7;'> {date} </span>")) %>%
+  mutate(text = str_c(
+    institution, "<br>",
+    title, "<br>",
+    date)) %>%
+  select(logo, text) %>%
+  mutate(
+    logo = purrr::map(logo, gt::html),
+    text = purrr::map(text, gt::html)
+  )
+
+experience %>%
+  gt() %>%
+  tab_header(md("**Experience**")) %>%
+  cols_align(align = c("left"), columns = text) %>%
+  cols_label(
+    logo = "",
+    text = "",
+  )
+```
+
+<h2 style="color:#23A7CE">Volunteering</h2>
+
+I have also given back through my time at Harambee Youth Employment Accelerator.
+
+```{r}
+volunteering <- tribble(
+  ~logo, ~link, ~institution, ~title, ~date,
+  # oxfam
+  "images/harambee.jfif", "https://www.harambee.co.za/", "Harambee Youth Employment Accelerator", "Intern", "Jul-Aug 2017",
+)
+
+volunteering <- volunteering %>%
+  mutate(
+    logo = glue::glue("<a href = {link}>
+                        <img src='{logo}' width='50' height='50'>
+                      </a>"),
+    institution = glue::glue("<b>{institution}</b>"),
+    date = glue::glue("<span style='opacity: .7;'> {date} </span>")) %>%
+  mutate(text = str_c(
+    institution, "<br>",
+    title, "<br>",
+    date)) %>%
+  select(logo, text) %>%
+  mutate(
+    logo = purrr::map(logo, gt::html),
+    text = purrr::map(text, gt::html)
+  )
+
+volunteering %>%
+  gt() %>%
+  tab_header(md("**Volunteering**")) %>%
+  cols_align(align = c("left"), columns = text) %>%
+  cols_label(
+    logo = "",
+    text = "",
+  )
+```
+

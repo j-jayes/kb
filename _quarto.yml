@@ -17,6 +17,8 @@ website:
       - href: certifications/certifications.qmd
         text: Certifications
     right: 
+      - href: about_2.qmd
+        text: About me
       - href: about.qmd
         text: Site
   repo-url: "https://github.com/j-jayes/kb"
