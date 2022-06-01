@@ -17,6 +17,5 @@ knitr::include_graphics("Covid-19_CAO_Survey_Full_Report_FINAL_WEB.pdf")
 ```
 
 
-{.aside}
-  
+
 
