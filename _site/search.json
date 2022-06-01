@@ -46,7 +46,7 @@
     "href": "reports_grid.html",
     "title": "Reports",
     "section": "",
-    "text": "This study explores specialized units established in 23 countries to investigate and prosecute serious international crimes.\n\n\n\nKatherine Brown\n\n\nMar 1, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nI co-wrote and co-researched this report on the state of intolerance and discrimination for the South African Department of Justice through the Foundation for Human Rights.\n\n\n\nKatherine Brown\n\n\nMar 1, 2022\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "This study explores specialized units established in 23 countries to investigate and prosecute serious international crimes.\n\n\n\nKatherine Brown\n\n\nMar 1, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nI was a member of the team which conducted a nationwide survey of Community-based Advice Offices (CAOs) during the national lockdown during the Covid-19 pandemic, which…\n\n\n\nKatherine Brown, Zaid Kimmie, Zimbali Mncube, Bongane Gasela\n\n\nJul 1, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nI co-wrote and co-researched this report on the state of intolerance and discrimination for the South African Department of Justice through the Foundation for Human Rights.\n\n\n\nKatherine Brown\n\n\nMar 1, 2022\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "update_instructions.html",
@@ -68,5 +68,12 @@
     "title": "How to update this site",
     "section": "Getting going",
     "text": "Getting going\n\nInstalling things!\nTo update this site, you need to have the website building tool called Quarto installed. You also need R and Rstudio installed, and the quarto package for R.\nAs an analogy, think of a car. Quarto is the engine, and Rstudio is the steering wheel. You don’t control Quarto directly, you steer in Rstudio.\nTo install Quarto onto your computer, follow the Get Started guide.\n\nknitr::include_url(\"https://quarto.org/docs/get-started/\")\n\n\n\n\nQuarto® is an open-source scientific and technical publishing system built on Pandoc\n\nI assume that you have R and Rstudio installed, but if not, you can follow this guide from Modern Dive.\n\nknitr::include_url(\"https://moderndive.com/1-getting-started.html\")\n\n\n\n\n\nGit and Github\nI don’t think there is a need to explain Git and Github here. They are amazing and if you are interested then this guide from Jenny Bryan is the best resource. She lays out exactly how the two differ here. All you need to know to update the website is that before making changes you have to use git pull in the terminal, make your changes, then commit these changes and push them to Github. Then the website automatically updates."
+  },
+  {
+    "objectID": "reports/hrdcao.html",
+    "href": "reports/hrdcao.html",
+    "title": "Human Rights Diagnosis: Community Advice Offices and Covid-19",
+    "section": "",
+    "text": "Full report\n\n\n\n\n{.aside}"
   }
 ]

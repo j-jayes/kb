@@ -3,6 +3,7 @@
     "listing": "/reports_grid.html",
     "items": [
       "/reports/gufai.html",
+      "/reports/hrdcao.html",
       "/reports/soidsa.html"
     ]
   }
