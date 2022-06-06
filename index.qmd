@@ -85,7 +85,7 @@ experience <- tribble(
   # oxfam
   "images/ox.jfif", "https://www.oxfam.org.za/", "Oxfam South Africa", "Research consultant", "2021 - Present",
   # ppf
-  "images/ppf.jfif", "https://parispeaceforum.org/", "Paris Peace Forum", "Chargée du Programme des Bénévoles<br>Volunteer Programme Officer", "2018",
+  "images/ppf.jfif", "https://parispeaceforum.org/", "Paris Peace Forum", "Chargée du Programme des Bénévoles<br>Volunteer Programme Officer", "Sep - Dec 2021",
   # fhr
   "images/fhr.png", "https://www.fhr.org.za/", "Foundation for Human Rights", "Research consultant, following a role as Junior Researcher and an Internship", "Sept 2020 – Present",
   # raith
