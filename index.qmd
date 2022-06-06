@@ -25,7 +25,7 @@ I'm passionate about socio-economic development, inequality,  and making a diffe
 
 <h2 style="color:#23A7CE">Education</h2>
 
-I have enjoyed an enriching education from two top-rated institutions in their fields of speciality.
+I have enjoyed an enriching education from two top-rated institutions in their fields of expertise. 
 
 ```{r}
 library(tidyverse)
@@ -76,7 +76,7 @@ education %>%
 
 <h2 style="color:#23A7CE">Experience</h2>
 
-I have a wealth of experience as a researcher and analyst in the NGO space. I have excelled professional in English and in French.
+I have a wealth of experience as a researcher and analyst in the NGO space. I have excelled professionally, both in English and in French environments.
 
 ```{r}
 
@@ -91,7 +91,7 @@ experience <- tribble(
   # raith
   "images/raith.png", "https://www.raith.org.za/", "RAITH Foundation", "Data Analysis Consultant", "Nov 2019 - Dec 2020",
     # raith
-  "images/irr.png", "https://irr.org.za/", "South African Institute for Race Relations<br>& Centre for Risk Analysis", "Research Intern", "Feb 2019 - Jul 2019",
+  "images/irr.png", "https://irr.org.za/", "South African Institute for Race Relations<br>& Centre for Risk Analysis", "Research Intern", "Feb - Jul 2019",
 )
 
 experience <- experience %>%
@@ -129,7 +129,7 @@ I have also given back through my time at Harambee Youth Employment Accelerator.
 volunteering <- tribble(
   ~logo, ~link, ~institution, ~title, ~date,
   # oxfam
-  "images/harambee.jfif", "https://www.harambee.co.za/", "Harambee Youth Employment Accelerator", "Intern", "Jul-Aug 2017",
+  "images/harambee.jfif", "https://www.harambee.co.za/", "Harambee Youth Employment Accelerator", "Intern", "Jul - Aug 2017",
 )
 
 volunteering <- volunteering %>%
