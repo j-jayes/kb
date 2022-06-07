@@ -14,10 +14,10 @@ suppressPackageStartupMessages({
 
 data_in <- tibble::tribble(
   ~Project, ~url, ~Title, ~Publisher,
-  "‘Food sovereignty: The only solution to the hunger crisis", "https://www.dailymaverick.co.za/article/2020-09-10-food-sovereignty-the-only-solution-to-the-hunger-crisis/", "Article", "Daily Maverick: Citizen, 10 September 2020",
+  "Food sovereignty: The only solution to the hunger crisis", "https://www.dailymaverick.co.za/article/2020-09-10-food-sovereignty-the-only-solution-to-the-hunger-crisis/", "Article", "Daily Maverick: Citizen, 10 September 2020",
   
    "FHR's new webinar series: justice delayed is justice denied", "https://unfinishedtrc.co.za/fhrs-new-webinar-series-justice-delayed-is-justice-denied/", "Article", "Unfinished Business of the TRC, 14 August 2020",
-     "'If Ramaphosa wants major growth, he'll need to drive major reforms'", "https://www.fin24.com/Opinion/if-ramaphosa-wants-major-growth-hell-need-to-drive-major-reforms-20190717-2", "Article", "Fin24, 17 July 2019",
+     "If Ramaphosa wants major growth, he'll need to drive major reforms", "https://www.fin24.com/Opinion/if-ramaphosa-wants-major-growth-hell-need-to-drive-major-reforms-20190717-2", "Article", "Fin24, 17 July 2019",
     "Voter apathy brings its own risks", "https://www.businesslive.co.za/bd/opinion/2019-05-07-voter-apathy-brings-its-own-risks/", "Article", "Business Day, 7 May 2019",
     "How much does Eskom need to fail before mines are forced to close?", "https://www.bizcommunity.com/Article/196/608/190098.html", "Article", "Biz Community, 24 April 2019",
    "Barriers to abortion in South Africa", "https://dailyfriend.co.za/news/barriers-to-abortion-in-south-africa", "Article", "The Daily Friend, 11 June 2019",
