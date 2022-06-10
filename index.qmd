@@ -23,9 +23,11 @@ I'm a Masters graduate in International Development from Sciences Po, looking fo
 
 I'm passionate about socio-economic development, inequality,  and making a difference in the lives of vulnerable people.
 
+If you click on the logos for the institutions, you will be redirected to their websites. Please see the above tabs to browse my published reports and articles. 
+
 <h2 style="color:#23A7CE">Education</h2>
 
-I have enjoyed an enriching education from two top-rated institutions in their fields of expertise. If you click on the logos for the institutions, you will be redirected to their websites. Please see the above tabs to browse my published reports and articles. 
+I have enjoyed an enriching education from two top-rated institutions in their fields of expertise. 
 
 ```{r}
 library(tidyverse)
