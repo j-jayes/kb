@@ -83,7 +83,7 @@ I have a wealth of experience as a researcher and analyst in the NGO space. I ha
 experience <- tribble(
   ~logo, ~link, ~institution, ~title, ~date,
   # oxfam
-  "images/ox.jfif", "https://www.oxfam.org.za/", "Oxfam South Africa", "Research consultant", "2021 - Present",
+  "images/ox.jfif", "https://www.oxfam.org.za/", "Oxfam South Africa", "Research consultant", "Mar 2021 - Jun 2022",
   # ppf
   "images/ppf.jfif", "https://parispeaceforum.org/", "Paris Peace Forum", "Chargée du Programme des Bénévoles<br>Volunteer Programme Officer", "Sep - Dec 2021",
   # fhr
