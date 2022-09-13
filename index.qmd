@@ -2,7 +2,7 @@
 title: Katherine Brown
 about:
   template: trestles
-  image: images/IMG_1873.jpg
+  image: images/3X8A0707.jpg
   links:
     - icon: bi-envelope-fill
       # text: Email
@@ -19,9 +19,11 @@ knitr::opts_chunk$set(echo = F, warning = F, message = F)
 
 # Hi there!
 
-I'm a Masters graduate in International Development from Sciences Po, looking for work as a data analyst.
+I'm a Masters graduate in International Development from Sciences Po, currently working as Project Manager at the #LearningPlanet Alliance at the Learning Planet Institute.
 
-I'm passionate about socio-economic development, inequality,  and making a difference in the lives of vulnerable people.
+In my current role, I manage the Ubuntu Learning Circle, a collection of like-minded organisations united in their pursuit of local solutions to local issues at a global scale. Organisations are affiliated with the #LearningPlanet Alliance or our partner in this project, the Club of Rome. 
+
+I'm passionate about research and advocacy in the areas of socio-economic development, inequality,  and making a difference in the lives of vulnerable people.
 
 Please see the above tabs to browse my published reports and articles on these and related topics. If you click on the logos for the below institutions, you will be redirected to their websites. 
 
@@ -84,6 +86,8 @@ I have a wealth of experience as a researcher and analyst in the NGO space. I ha
 
 experience <- tribble(
   ~logo, ~link, ~institution, ~title, ~date,
+  #lpi
+  "LearningPlanetInstitute-logo.png", "https://www.learning-planet.org/", "#LearningPlanet Alliance", "Junior Project Manager", "Sept 2022 - Present"
   # oxfam
   "images/ox.jfif", "https://www.oxfam.org.za/", "Oxfam South Africa", "Research consultant", "Mar 2021 - Jun 2022",
   # ppf
