@@ -93,7 +93,7 @@ experience <- tribble(
   # ppf
   "images/ppf.jfif", "https://parispeaceforum.org/", "Paris Peace Forum", "Chargée du Programme des Bénévoles<br>Volunteer Programme Officer", "Sep - Dec 2021",
   # fhr
-  "images/fhr.png", "https://www.fhr.org.za/", "Foundation for Human Rights", "Research consultant, following a role as Junior Researcher and an Internship", "Sept 2020 – Present",
+  "images/fhr.png", "https://www.fhr.org.za/", "Foundation for Human Rights", "Research consultant, following a role as Junior Researcher and an Internship", "Sept 2019 – Present",
   # raith
   "images/raith.png", "https://www.raith.org.za/", "RAITH Foundation", "Data Analysis Consultant", "Nov 2019 - Dec 2020",
     # raith
