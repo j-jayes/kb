@@ -1,7 +1,7 @@
 ---
 title: "The RAITH Foundation Review 2010–2020: Summary Report"
 author: David Barnard, Katherine Brown 
-date: 31-12-2020
+date: 01-01-2020
 image: "Screenshot 2022-09-23 150142.png"
 description: "During this year-long project, I assisted the Raith Foundation with a systematic internal review of their grant-making process, by analysing a random sample of the grants made in the past 10 years."
 ---
