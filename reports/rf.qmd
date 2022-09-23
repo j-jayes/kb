@@ -13,7 +13,7 @@ During this year-long project, I assisted the Raith Foundation with a systematic
 ```{r image-ref-for-in-text, echo = FALSE, message=FALSE, fig.align='center', fig.cap='Full report', out.width="100%", out.height=800}
 #| column: body-outset
 
-knitr::include_graphics("RAITH review 2022 final 11 march for www.pdf")
+knitr::include_graphics("RAITHreview.pdf")
 ```
 
 
