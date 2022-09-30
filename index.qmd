@@ -19,9 +19,9 @@ knitr::opts_chunk$set(echo = F, warning = F, message = F)
 
 # Hi there!
 
-I'm a Masters graduate in International Development from Sciences Po, currently working as Project Manager at the #LearningPlanet Alliance, which was born out of the Learning Planet Institute.
+I'm a Masters graduate in International Development from Sciences Po, currently working as Project Manager at the LearningPlanet Alliance, which was born out of an Alliance between UNESCO and the Learning Planet Institute.
 
-In my current role, I manage the Ubuntu Learning Circle, a collection of like-minded organisations united in their pursuit of local solutions to local issues at a global scale. Organisations are affiliated with the #LearningPlanet Alliance or our partner in this project, the Club of Rome. 
+In my current role, I manage the Ubuntu Learning Circle, a collection of like-minded organisations united in their pursuit of African-led solutions to African issues, honouring indigenous knowledge and wisdom. Member organisations of the Circle are affiliated with the LearningPlanet Alliance or our partner in this project, the Club of Rome. 
 
 I'm passionate about research and advocacy in the areas of socio-economic development, inequality,  and making a difference in the lives of vulnerable people. I come from a long line of activists (all the way back to my great-grandmother!) who protested against the injustice of apartheid over 60 cumulative years. Growing up hearing my family's stories gave me a profound appreciation for social justice. I gravitate towards this field consciously, through my experience and political convictions, and unconsciously, through my heritage. Although apartheid ended the year before I was born, discriminatory vestiges of this regime permeate through its descendants and after-effects. Growing up in this politically tense period, I have listened, and finally contributed, to an evolving conversation about the need for tangible transformation through truly global development.
 
