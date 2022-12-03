@@ -19,7 +19,7 @@ knitr::opts_chunk$set(echo = F, warning = F, message = F)
 
 # Hi there!
 
-I'm a Masters graduate in International Development from Sciences Po, currently working as Project Manager at the LearningPlanet Alliance, which was born out of an Alliance between UNESCO and the Learning Planet Institute.
+I'm a Masters graduate in International Development from Sciences Po, currently working as Project Manager at the LearningPlanet Alliance, a product of an Alliance between UNESCO and the Learning Planet Institute.
 
 In my current role, I manage the Ubuntu Learning Circle, a collection of like-minded organisations united in their pursuit of African-led solutions to African issues, honouring indigenous knowledge and wisdom. Member organisations of the Circle are affiliated with the LearningPlanet Alliance or our partner in this project, the Club of Rome. 
 
