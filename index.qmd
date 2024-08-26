@@ -21,8 +21,6 @@ knitr::opts_chunk$set(echo = F, warning = F, message = F)
 
 I'm a Masters graduate in International Development from Sciences Po, currently working as Project Manager at the LearningPlanet Alliance, a product of an Alliance between UNESCO and the Learning Planet Institute.
 
-In my current role, I manage the Ubuntu Learning Circle, a collection of like-minded organisations united in their pursuit of African-led solutions to African issues, honouring indigenous knowledge and wisdom. Member organisations of the Circle are affiliated with the LearningPlanet Alliance or our partner in this project, the Club of Rome. 
-
 I'm passionate about research and advocacy in the areas of socio-economic development, inequality,  and making a difference in the lives of vulnerable people. I come from a long line of activists (all the way back to my great-grandmother!) who protested against the injustice of apartheid over 60 cumulative years. Growing up hearing my family's stories gave me a profound appreciation for social justice. I gravitate towards this field consciously, through my experience and political convictions, and unconsciously, through my heritage. Although apartheid ended the year before I was born, discriminatory vestiges of this regime permeate through its descendants and after-effects. Growing up in this politically tense period, I have listened, and finally contributed, to an evolving conversation about the need for tangible transformation through truly global development.
 
 Please see the above tabs to browse my published reports and articles on these and related topics. If you click on the logos for the below institutions, you will be redirected to their websites. 
@@ -87,7 +85,7 @@ I have a wealth of experience as a researcher and analyst in the NGO space. I ha
 experience <- tribble(
   ~logo, ~link, ~institution, ~title, ~date,
   #lp 
-  "images/1664269244656.jpg", "https://www.learning-planet.org/", "LearningPlanet Alliance", "Junior Project Manager", "Sept 2022 - Present",
+  "images/1664269244656.jpg", "https://www.learning-planet.org/", "LearningPlanet Alliance", "Project Manager", "Sept 2022 - Present",
   # oxfam
   "images/ox.jfif", "https://www.oxfam.org.za/", "Oxfam South Africa", "Research consultant", "Mar 2021 - Jun 2022",
   # ppf
