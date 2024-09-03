@@ -20,7 +20,7 @@ website:
       - href: about.qmd
         text: Site
   repo-url: "https://github.com/j-jayes/kb"
-  page-footer: '© 2022, Katherine Brown'
+  page-footer: '© 2024, Katherine Brown'
 
 format:
   html:
