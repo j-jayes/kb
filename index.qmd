@@ -129,6 +129,10 @@ experience %>%
   cols_label(
     logo = "",
     text = "",
+  ) %>%
+  cols_width(
+    logo ~ px(70),   # Adjust width for logo column
+    text ~ px(500)   # Adjust width for text column
   )
 ```
 
@@ -167,6 +171,10 @@ volunteering %>%
   cols_label(
     logo = "",
     text = "",
+  ) %>%
+  cols_width(
+    logo ~ px(70),   # Adjust width for logo column
+    text ~ px(500)   # Adjust width for text column
   )
 ```
 
