@@ -1,8 +1,6 @@
 ---
 title: "Short-form video content"
 format: html
-  type: grid
-
 ---
 
 # Social Media Videos
