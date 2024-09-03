@@ -25,7 +25,7 @@ I'm passionate about data, storytelling and advocacy about socio-economic develo
 
 Use the above tabs to browse my published reports and articles on these and related topics. If you click on the logos for the below institutions, you will be redirected to their websites. 
 
-<h2 style="color:#23A7CE">Education</h2>
+## Education
 
 I have benefitted from an enriching education at two top-rated institutions in their fields of expertise. 
 
@@ -33,7 +33,6 @@ I have benefitted from an enriching education at two top-rated institutions in t
 library(tidyverse)
 library(gt)
 library(glue)
-
 education <- tribble(
   ~logo, ~link, ~institution, ~degree, ~date, ~ grade_comment,
   # SP
@@ -81,7 +80,7 @@ education %>%
 ```
 
 
-<h2 style="color:#23A7CE">Experience</h2>
+## Experience
 
 I have a wealth of experience as a project manager, researcher and data analyst in NGOs in France and South Africa. I have excelled professionally, both in French and English environments.
 
@@ -92,7 +91,7 @@ experience <- tribble(
   #lp 
   "images/1664269244656.jpg", "https://www.learning-planet.org/", "LearningPlanet Alliance", "Project Manager", "Sept 2022 - Present",
   #lp 
-  "Cs3IebYp_400x400.png", "https://itjpsl.com/", "International Truth and Justice Project", "Researcher", "Sept 2023 - Feb 2024",
+  "Cs3IebYp_400x400.jpeg", "https://itjpsl.com/", "International Truth and Justice Project", "Researcher", "Sept 2023 - Feb 2024",
   # oxfam
   "images/ox.jfif", "https://www.oxfam.org.za/", "Oxfam South Africa", "Research consultant", "Mar 2021 - June 2022",
   # ppf
@@ -136,7 +135,7 @@ experience %>%
   )
 ```
 
-<h2 style="color:#23A7CE">Volunteering</h2>
+## Volunteering
 
 I have also given back through Benenova in Paris, France and during my time at Harambee Youth Employment Accelerator in Johannesburg, South Africa.
 
