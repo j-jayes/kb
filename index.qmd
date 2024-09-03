@@ -75,8 +75,8 @@ education %>%
     text = "",
   ) %>%
   cols_width(
-    logo ~ px(70),   # Adjust width for logo column
-    text ~ px(500)   # Adjust width for text column
+    logo ~ px(50),   # Adjust width for logo column
+    text ~ px(700)   # Adjust width for text column
   )
 ```
 
@@ -108,7 +108,7 @@ experience <- tribble(
 experience <- experience %>%
   mutate(
     logo = glue::glue("<a href = {link}>
-                        <img src='{logo}' width='50' height='50'>
+                        <img src='{logo}' width='70' height='70'>
                       </a>"),
     institution = glue::glue("<b>{institution}</b>"),
     date = glue::glue("<span style='opacity: .7;'> {date} </span>")) %>%
@@ -138,19 +138,21 @@ experience %>%
 
 <h2 style="color:#23A7CE">Volunteering</h2>
 
-I have also given back through my time at Harambee Youth Employment Accelerator.
+I have also given back through Benenova in Paris, France and during my time at Harambee Youth Employment Accelerator in Johannesburg, South Africa.
 
 ```{r}
 volunteering <- tribble(
   ~logo, ~link, ~institution, ~title, ~date,
-  # harambee
+  # benenova
+  "Benenova-logo.png", "https://www.benenova.fr/", "Benenova", "Volunteer", "2021",
+   # harambee
   "images/harambee.jfif", "https://www.harambee.co.za/", "Harambee Youth Employment Accelerator", "Intern", "Jul - Aug 2017",
 )
 
 volunteering <- volunteering %>%
   mutate(
     logo = glue::glue("<a href = {link}>
-                        <img src='{logo}' width='50' height='50'>
+                        <img src='{logo}' width='70' height='70'>
                       </a>"),
     institution = glue::glue("<b>{institution}</b>"),
     date = glue::glue("<span style='opacity: .7;'> {date} </span>")) %>%
@@ -173,8 +175,8 @@ volunteering %>%
     text = "",
   ) %>%
   cols_width(
-    logo ~ px(70),   # Adjust width for logo column
-    text ~ px(500)   # Adjust width for text column
+    logo ~ px(50),   # Adjust width for logo column
+    text ~ px(700)   # Adjust width for text column
   )
 ```
 
