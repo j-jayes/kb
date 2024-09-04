@@ -14,7 +14,7 @@ website:
         text: Reports
       - href: articles_grid.qmd
         text: Articles
-      - href: socialmedia.qmd
+      - href: videocontent.qmd
         text: Video content
       - href: certifications/certifications.qmd
         text: Certifications
