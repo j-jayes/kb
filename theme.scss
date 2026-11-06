@@ -76,3 +76,40 @@ $footer-fg:             #23A7CE !default;
   background: #23A7CE;
   color: #fff;
 }
+
+/* Video content page: one centred column, reels in a grid */
+body.video-page main.content {
+  width: 100%;
+  max-width: 1140px;
+  justify-self: center;
+}
+
+body.video-page main.content > p {
+  max-width: 46rem;
+}
+
+.reel-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(326px, 1fr));
+  gap: 1.5rem;
+  align-items: start;
+  margin-bottom: 3rem;
+}
+
+.reel-grid .reel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reel-grid .instagram-media {
+  margin: 0 auto !important;
+  max-width: 400px !important;
+}
+
+.reel-views {
+  margin-top: 0.6rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #23A7CE;
+}
