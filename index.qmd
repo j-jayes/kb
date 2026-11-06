@@ -19,9 +19,9 @@ knitr::opts_chunk$set(echo = F, warning = F, message = F)
 
 # Hi!
 
-I'm a Masters graduate in International Development from Sciences Po, currently working as Project Manager at the LearningPlanet Alliance, a collaboration between UNESCO and the Learning Planet Institute.
+I'm a Masters graduate in International Development from Sciences Po, currently working as International Project & Partnerships Manager at the Learning Planet Institute, a UNESCO-recognised research centre advancing innovation in learning systems globally.
 
-I'm passionate about data, storytelling and advocacy about socio-economic development, inequality,  and making a positive impact on the world. I come from a long line of activists (all the way back to my great-grandmother) who protested against the injustice of apartheid over 60 cumulative years. Growing up hearing my family's stories gave me a profound appreciation for social justice. I gravitate towards this field consciously, through my experience and political convictions, and unconsciously, through my heritage. Although apartheid ended the year before I was born, discriminatory vestiges of this regime permeate through its descendants and after-effects. Growing up in this politically tense period, I have listened, and finally contributed, to an evolving conversation about the need for tangible transformation through truly global development.
+I'm passionate about data, storytelling and advocacy about socio-economic development, and making a positive impact on the world. I come from a long line of activists (all the way back to my great-grandmother) who protested against the injustice of apartheid over 70 cumulative years. Growing up hearing my family's stories gave me a profound appreciation for social justice. I gravitate towards this field consciously, through my experience and political convictions, and unconsciously, through my heritage. Although apartheid ended the year before I was born, discriminatory vestiges of this regime permeate through its descendants and legacy. Growing up in this politically tense period, I have listened, and finally contributed, to an evolving conversation about the need for tangible transformation through truly universal development.
 
 Use the above tabs to browse my published reports and articles on these and related topics. If you click on the logos for the below institutions, you will be redirected to their websites. 
 
@@ -35,6 +35,8 @@ library(gt)
 library(glue)
 education <- tribble(
   ~logo, ~link, ~institution, ~degree, ~date, ~ grade_comment,
+  #AVPA Saïd Oxford
+  "images/saidoxford.jpg", "https://knowledge.avpa.africa/courses/africa-impact-investing-fellowship-aiif/", "Saïd Business School, University of Oxford & Africa Venture Philanthropy Alliance", "Africa Impact Investing Fellowship", "2026", "",
   # SP
   "images/sp.jfif", "https://www.sciencespo.fr/en", "Sciences Po", "Master's degree, International Development in African Studies & Global Risks", "2020-2022", "",
   # uct honours
@@ -89,19 +91,19 @@ I have a wealth of experience as a project manager, researcher and data analyst 
 experience <- tribble(
   ~logo, ~link, ~institution, ~title, ~date,
   #lp 
-  "LearningPlanetInstitute-logo.png", "https://www.learningplanetinstitute.org/", "Learning Planet Institute", "Project Manager", "Sept 2022 - Present",
+  "images/LearningPlanetInstitute-logo.png", "https://www.learningplanetinstitute.org/", "Learning Planet Institute", "International Project & Partnerships Manager", "Sept 2022 - Present",
   #lp 
-  "Cs3IebYp_400x400.png", "https://itjpsl.com/", "International Truth and Justice Project", "Research Consultant", "Sept 2023 - Feb 2024",
+  "images/Cs3IebYp_400x400.png", "https://itjpsl.com/", "International Truth and Justice Project", "Project Management & Research Consultant", "Sept 2023 - Feb 2024",
   # oxfam
-  "images/ox.jfif", "https://www.oxfam.org.za/", "Oxfam South Africa", "Research Consultant", "Mar 2021 - June 2022",
+  "images/ox.jfif", "https://www.oxfam.org.za/", "Oxfam South Africa", "Project Management & Research Consultant", "Mar 2021 - June 2022",
   # ppf
   "images/ppf.jfif", "https://parispeaceforum.org/", "Paris Peace Forum", "Volunteer Programme Officer", "Sept - Dec 2021",
   # fhr
-  "images/fhr.png", "https://www.fhr.org.za/", "Foundation for Human Rights", "Research Consultant, previously Junior Researcher and Intern", "Sept 2019 – Sept 2022",
+  "images/fhr.png", "https://www.fhr.org.za/", "Foundation for Human Rights", "Data Analyst & Researcher, previously Junior Researcher and Intern", "Sept 2019 – Sept 2022",
   # raith
   "images/raith.png", "https://www.raith.org.za/", "RAITH Foundation", "Data Analysis Consultant", "Nov 2019 - Dec 2020",
     # raith
-  "images/irr.png", "https://irr.org.za/", "South African Institute for Race Relations<br>& Centre for Risk Analysis", "Research Intern", "Feb - July 2019",
+  "images/irr.png", "https://irr.org.za/", "South African Institute for Race Relations<br>& Centre for Risk Analysis", "Data Analysis & Research Intern", "Feb - July 2019",
 )
 
 experience <- experience %>%
@@ -137,13 +139,13 @@ experience %>%
 
 ## Volunteering
 
-I have also given back through Benenova in Paris, France and during my time at Harambee Youth Employment Accelerator in Johannesburg, South Africa.
+I have also given back through Benenova in Paris, France, and during my time at Harambee Youth Employment Accelerator in Johannesburg, South Africa.
 
 ```{r}
 volunteering <- tribble(
   ~logo, ~link, ~institution, ~title, ~date,
   # benenova
-  "Benenova-logo.png", "https://www.benenova.fr/", "Benenova", "Volunteer", "2021",
+  "images/Benenova-logo.png", "https://www.benenova.fr/", "Benenova", "Volunteer", "2021",
    # harambee
   "images/harambee.jfif", "https://www.harambee.co.za/", "Harambee Youth Employment Accelerator", "Intern", "Jul - Aug 2017",
 )
