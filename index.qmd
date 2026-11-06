@@ -14,6 +14,9 @@ about:
 
 ```{r, echo=F, message=F, warning=F}
 knitr::opts_chunk$set(echo = F, warning = F, message = F)
+library(tidyverse)
+library(gt)
+library(glue)
 ```
 
 
@@ -86,9 +89,6 @@ experience %>%
 I have benefitted from an enriching education at two top-rated institutions in their fields of expertise. 
 
 ```{r}
-library(tidyverse)
-library(gt)
-library(glue)
 education <- tribble(
   ~logo, ~link, ~institution, ~degree, ~date, ~ grade_comment,
   #AVPA Saïd Oxford
