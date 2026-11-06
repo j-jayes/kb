@@ -25,6 +25,62 @@ I'm passionate about data, storytelling and advocacy about socio-economic develo
 
 Use the above tabs to browse my published reports and articles on these and related topics. If you click on the logos for the below institutions, you will be redirected to their websites. 
 
+
+## Experience
+
+I have a wealth of experience as a project manager, researcher and data analyst in NGOs in France and South Africa. I have excelled professionally, both in French and English environments.
+
+```{r}
+
+experience <- tribble(
+  ~logo, ~link, ~institution, ~title, ~date,
+  #lp 
+  "images/LearningPlanetInstitute-logo.png", "https://www.learningplanetinstitute.org/", "Learning Planet Institute", "International Project & Partnerships Manager", "Sept 2022 - Present",
+  #lp 
+  "images/Cs3IebYp_400x400.png", "https://itjpsl.com/", "International Truth and Justice Project", "Project Management & Research Consultant", "Sept 2023 - Feb 2024",
+  # oxfam
+  "images/ox.jfif", "https://www.oxfam.org.za/", "Oxfam South Africa", "Project Management & Research Consultant", "Mar 2021 - June 2022",
+  # ppf
+  "images/ppf.png", "https://parispeaceforum.org/", "Paris Peace Forum", "Volunteer Programme Officer", "Sept - Dec 2021",
+  # fhr
+  "images/fhr.png", "https://www.fhr.org.za/", "Foundation for Human Rights", "Data Analyst & Researcher, previously Junior Researcher and Intern", "Sept 2019 – Sept 2022",
+  # raith
+  "images/raith.png", "https://www.raith.org.za/", "RAITH Foundation", "Data Analysis Consultant", "Nov 2019 - Dec 2020",
+    # raith
+  "images/irr.png", "https://irr.org.za/", "South African Institute for Race Relations<br>& Centre for Risk Analysis", "Data Analysis & Research Intern", "Feb - July 2019",
+)
+
+experience <- experience %>%
+  mutate(
+    logo = glue::glue("<a href = {link}>
+                        <img src='{logo}' width='70' height='70'>
+                      </a>"),
+    institution = glue::glue("<b>{institution}</b>"),
+    date = glue::glue("<span style='opacity: .7;'> {date} </span>")) %>%
+  mutate(text = str_c(
+    institution, "<br>",
+    title, "<br>",
+    date)) %>%
+  select(logo, text) %>%
+  mutate(
+    logo = purrr::map(logo, gt::html),
+    text = purrr::map(text, gt::html)
+  )
+
+experience %>%
+  gt() %>%
+  tab_header(md("**Experience**")) %>%
+  cols_align(align = c("left"), columns = text) %>%
+  cols_label(
+    logo = "",
+    text = "",
+  ) %>%
+  cols_width(
+    logo ~ px(50),   # Adjust width for logo column
+    text ~ px(700)   # Adjust width for text column
+  )
+```
+
 ## Education
 
 I have benefitted from an enriching education at two top-rated institutions in their fields of expertise. 
@@ -81,61 +137,6 @@ education %>%
   )
 ```
 
-
-## Experience
-
-I have a wealth of experience as a project manager, researcher and data analyst in NGOs in France and South Africa. I have excelled professionally, both in French and English environments.
-
-```{r}
-
-experience <- tribble(
-  ~logo, ~link, ~institution, ~title, ~date,
-  #lp 
-  "images/LearningPlanetInstitute-logo.png", "https://www.learningplanetinstitute.org/", "Learning Planet Institute", "International Project & Partnerships Manager", "Sept 2022 - Present",
-  #lp 
-  "images/Cs3IebYp_400x400.png", "https://itjpsl.com/", "International Truth and Justice Project", "Project Management & Research Consultant", "Sept 2023 - Feb 2024",
-  # oxfam
-  "images/ox.jfif", "https://www.oxfam.org.za/", "Oxfam South Africa", "Project Management & Research Consultant", "Mar 2021 - June 2022",
-  # ppf
-  "images/ppf.jfif", "https://parispeaceforum.org/", "Paris Peace Forum", "Volunteer Programme Officer", "Sept - Dec 2021",
-  # fhr
-  "images/fhr.png", "https://www.fhr.org.za/", "Foundation for Human Rights", "Data Analyst & Researcher, previously Junior Researcher and Intern", "Sept 2019 – Sept 2022",
-  # raith
-  "images/raith.png", "https://www.raith.org.za/", "RAITH Foundation", "Data Analysis Consultant", "Nov 2019 - Dec 2020",
-    # raith
-  "images/irr.png", "https://irr.org.za/", "South African Institute for Race Relations<br>& Centre for Risk Analysis", "Data Analysis & Research Intern", "Feb - July 2019",
-)
-
-experience <- experience %>%
-  mutate(
-    logo = glue::glue("<a href = {link}>
-                        <img src='{logo}' width='70' height='70'>
-                      </a>"),
-    institution = glue::glue("<b>{institution}</b>"),
-    date = glue::glue("<span style='opacity: .7;'> {date} </span>")) %>%
-  mutate(text = str_c(
-    institution, "<br>",
-    title, "<br>",
-    date)) %>%
-  select(logo, text) %>%
-  mutate(
-    logo = purrr::map(logo, gt::html),
-    text = purrr::map(text, gt::html)
-  )
-
-experience %>%
-  gt() %>%
-  tab_header(md("**Experience**")) %>%
-  cols_align(align = c("left"), columns = text) %>%
-  cols_label(
-    logo = "",
-    text = "",
-  ) %>%
-  cols_width(
-    logo ~ px(50),   # Adjust width for logo column
-    text ~ px(700)   # Adjust width for text column
-  )
-```
 
 ## Volunteering
 
