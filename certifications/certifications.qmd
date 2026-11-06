@@ -16,7 +16,7 @@ I'm always keen to learn new skills. Here are the certifications I've earned mos
 ::: {.g-col-12 .g-col-md-7}
 [Saïd Business School, University of Oxford & African Venture Philanthropy Alliance]{.cert-issuer}
 
-[Completed April 2026]{.cert-date}
+[Completed May 2026]{.cert-date}
 
 This course focused on hands-on experiential learning, including investment opportunity analysis, deal structuring, cost-effectiveness modelling and impact measurement; investment committee simulation with an international cohort of 38 Fellows collectively managing over USD 2 billion in assets. 
 
